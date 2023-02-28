@@ -1,0 +1,38 @@
+.App{
+  /* border: 2px solid blue; */
+  height: 100vh;
+  width: 100%;
+ display: flex;
+  align-items: center;
+  background-color: darkgray;
+
+}
+.heading{
+  /* border: 2px solid red; */
+  height: 100%;
+  width: 40%;
+  background-color: darkgray;
+  
+
+}
+.heading h1{
+ font-size: 6rem;
+ font-weight: 1000;
+ margin-top: 10%;
+}
+.heading h1 span{
+ color: rgb(249, 79, 79);
+ font-weight: bolder;
+ font-size: 10rem;
+}
+.compo{
+  /* border: 2px solid red; */
+  height: 60%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(218, 218, 161);
+  box-shadow: 8px 8px 20px rgb(176, 24, 24);
+} 
